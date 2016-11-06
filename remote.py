@@ -10,7 +10,7 @@ BASE_URL = ''
 app = Flask(__name__)
 
 # Initialise the Lirc config parser
-lircParse = Lirc('/etc/lirc/lircd.conf')
+lircParse = Lirc('/etc/lirc/remotes_all.conf')
 
 
 @app.route("/")
